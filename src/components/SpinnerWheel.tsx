@@ -149,7 +149,7 @@ export function SpinnerWheel({ restaurants, isSpinning, onSpinEnd, spinTrigger }
                   textAnchor="middle"
                   dominantBaseline="middle"
                   style={{
-                    transform: `rotate(${textPos.rotation}deg)`,
+                    transform: `rotate(${textPos.rotation - 90}deg)`,
                     transformOrigin: `${textPos.x}px ${textPos.y}px`,
                     textShadow: "0 2px 4px rgba(0,0,0,0.6)",
                   }}
