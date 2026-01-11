@@ -144,14 +144,14 @@ export function SpinnerWheel({ restaurants, isSpinning, onSpinEnd, spinTrigger }
                   x={textPos.x}
                   y={textPos.y}
                   fill="white"
-                  fontSize={restaurants.length > 6 ? "10" : "12"}
+                  fontSize={restaurants.length > 6 ? "14" : "16"}
                   fontWeight="bold"
                   textAnchor="middle"
                   dominantBaseline="middle"
                   style={{
                     transform: `rotate(${textPos.rotation}deg)`,
                     transformOrigin: `${textPos.x}px ${textPos.y}px`,
-                    textShadow: "0 1px 2px rgba(0,0,0,0.5)",
+                    textShadow: "0 2px 4px rgba(0,0,0,0.6)",
                   }}
                 >
                   {displayName}
