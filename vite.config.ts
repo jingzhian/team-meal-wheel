@@ -6,6 +6,7 @@ import { componentTagger } from "lovable-tagger";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   base: '/team-meal-wheel/',  // ← Add this line (your repo name)
+  plugins: [react()],
   server: {
     host: "::",
     port: 8080,
