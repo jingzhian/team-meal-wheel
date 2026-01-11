@@ -60,8 +60,8 @@ const Index = () => {
               <Utensils className="w-6 h-6 text-primary-foreground" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-foreground">Team Lunch Spinner</h1>
-              <p className="text-sm text-muted-foreground">Let fate decide where we eat!</p>
+              <h1 className="text-xl font-bold text-foreground">Food Delivery Spinner</h1>
+              <p className="text-sm text-muted-foreground">Happier Food = Happier Call</p>
             </div>
           </div>
         </div>
